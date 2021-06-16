@@ -7,7 +7,7 @@ using Web.ViewModels;
 
 namespace Web.Serialization
 {
-    public class ProductMapper
+    public static class ProductMapper
     { 
         /// <summary>
         /// Maps a Product data model a ProductModel view model

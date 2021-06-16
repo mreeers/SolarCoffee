@@ -36,7 +36,7 @@ namespace Services.Product
                     Data = product,
                     Time = DateTime.UtcNow,
                     Message = "Archived Product",
-                    IsSeccess = true
+                    IsSuccess = true
                 };
             }
             catch(Exception ex)
@@ -46,7 +46,7 @@ namespace Services.Product
                     Data = null,
                     Time = DateTime.UtcNow,
                     Message = ex.StackTrace,
-                    IsSeccess = false
+                    IsSuccess = false
                 };
             }
         }
@@ -76,7 +76,7 @@ namespace Services.Product
                     Data = product,
                     Time = DateTime.UtcNow,
                     Message = "Saved new product",
-                    IsSeccess = true
+                    IsSuccess = true
                 };
             }
             catch(Exception ex)
@@ -86,7 +86,7 @@ namespace Services.Product
                     Data = product,
                     Time = DateTime.UtcNow,
                     Message = ex.StackTrace,
-                    IsSeccess = false
+                    IsSuccess = false
                 };
             }
         }
