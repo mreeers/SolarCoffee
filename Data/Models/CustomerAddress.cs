@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Data.Models
 {
-    public class CustomerAddresses
+    public class CustomerAddress
     {
         public int Id { get; set; }
         public DateTime CreateOn { get; set; }

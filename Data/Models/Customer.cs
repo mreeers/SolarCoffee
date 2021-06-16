@@ -9,6 +9,6 @@ namespace Data.Models
         public DateTime UpdatedOn { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public CustomerAddresses PrimaryAdress { get; set; }
+        public CustomerAddress PrimaryAdress { get; set; }
     }
 }

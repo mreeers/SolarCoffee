@@ -15,11 +15,11 @@ namespace Services.Order
     public class OrderService : IOrderService
     {
         private readonly DbContex _contex;
-        private readonly ILogger _logger;
+        private readonly ILogger<OrderService> _logger;
         private readonly IProductService _productService;
         private readonly IInventoryService _inventoryService;
 
-        public OrderService(Data.DbContex contex, ILogger logger, IProductService productService, IInventoryService inventoryService)
+        public OrderService(Data.DbContex contex, ILogger<OrderService> logger, IProductService productService, IInventoryService inventoryService)
         {
             _contex = contex;
             _logger = logger;
